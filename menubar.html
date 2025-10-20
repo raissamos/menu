@@ -58,8 +58,8 @@
 <body>
 
 	<nav class="navMenu  border">
-		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
-		
+		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> home</a>
+		<a id="leituras" onclick="navigate(this.id)" href="#"> <i class="fa-thin fa-book-open"></i> leituras</a>
 
 	</nav>
 
@@ -76,7 +76,8 @@
 
 			if (id == 'home')
 				window.open("https://www.notion.so/leituras", '_blank').focus();
-			
+			else if (id == 'leituras')
+				window.open("https://www.notion.so/leituras-156bc30b7fa4809090cfdca73f82755a?source=copy_link", '_blank').focus();
 			
 
 		}
